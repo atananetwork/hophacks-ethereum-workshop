@@ -6,23 +6,13 @@
 
 ## initial setup
 
-### install node/npm
-- use your systems package manager, e.g. on OSX `brew install node`
+- install node/npm via your systems package manager, e.g. on OSX: `brew install node`
 
-### install a few necessary node packages:
-```
-npm install -g truffle
-npm install -g ganache-cli
-npm install -g create-react-app
-npm install -g lerna
-```
+- install a few necessary node packages: `npm install -g truffle ganache-cli create-react-app lerna`
 
-### install project dependencies
-```
-lerna bootstrap
-```
+- install project dependencies: `lerna bootstrap`
 
-### link the projects
+- link the projects:
 ```
 cd packages/hophacks-contracts
 yarn link
@@ -30,4 +20,4 @@ cd ./../hophacks-frontend
 yarn link hophacks-contracts
 ```
 
-## see the individual repos for running frontend and setting up solidity dev environment
+*see the individual repos for running frontend and setting up solidity dev environmen*
