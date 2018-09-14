@@ -21,4 +21,13 @@ npm install -g lerna
 ```
 lerna bootstrap
 ```
+
+### link the projects
+```
+cd packages/hophacks-contracts
+yarn link
+cd ./../hophacks-frontend
+yarn link hophacks-contracts
+```
+
 ## see the individual repos for running frontend and setting up solidity dev environment
