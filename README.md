@@ -14,5 +14,11 @@
 npm install -g truffle
 npm install -g ganache-cli
 npm install -g create-react-app
+npm install -g lerna
 ```
-### see the individual repos for setting up contract dev and frontend
+
+### install project dependencies
+```
+lerna bootstrap
+```
+## see the individual repos for running frontend and setting up solidity dev environment
