@@ -20,4 +20,4 @@ cd ./../hophacks-frontend
 yarn link hophacks-contracts
 ```
 
-*see the individual repos for running frontend and setting up solidity dev environmen*
+*see the individual repos for running frontend and setting up solidity dev environment*
