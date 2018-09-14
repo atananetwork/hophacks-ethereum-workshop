@@ -15,4 +15,4 @@ npm install -g truffle
 npm install -g ganache-cli
 npm install -g create-react-app
 ```
-### see the individual repos for setting up contract and frontend
+### see the individual repos for setting up contract dev and frontend
